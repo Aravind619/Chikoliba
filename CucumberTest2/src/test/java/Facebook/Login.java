@@ -47,6 +47,7 @@ public class Login {
 
 	@Given("^User is on Facebook page already$")
 	public void user_is_on_Facebook_page_already() throws Throwable {
+		System.out.println("Checking again");
 		String ExpectedTitle = "Facebook – log in or sign up";
 		String ActualTitle = driver.getTitle();
 		System.out.println(ActualTitle);

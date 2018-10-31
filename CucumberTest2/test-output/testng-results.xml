@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20779" started-at="2018-10-31T02:27:57Z" finished-at="2018-10-31T02:28:18Z">
+  <suite name="Default suite" duration-ms="12529" started-at="2018-10-31T03:02:05Z" finished-at="2018-10-31T03:02:18Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.CucumberTest2.TestRunner@69ea3742]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="20779" started-at="2018-10-31T02:27:57Z" finished-at="2018-10-31T02:28:18Z">
+    <test name="Default test" duration-ms="12529" started-at="2018-10-31T03:02:05Z" finished-at="2018-10-31T03:02:18Z">
       <class name="com.CucumberTest2.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.CucumberTest2.TestRunner@69ea3742]" name="setUpClass" is-config="true" duration-ms="483" started-at="2018-10-31T02:27:57Z" finished-at="2018-10-31T02:27:58Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.CucumberTest2.TestRunner@69ea3742]" name="setUpClass" is-config="true" duration-ms="305" started-at="2018-10-31T03:02:05Z" finished-at="2018-10-31T03:02:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.CucumberTest2.TestRunner@69ea3742]" name="feature" duration-ms="20137" started-at="2018-10-31T02:27:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-10-31T02:28:18Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.CucumberTest2.TestRunner@69ea3742]" name="feature" duration-ms="12079" started-at="2018-10-31T03:02:06Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-10-31T03:02:18Z">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at Facebook.Login.user_is_on_Facebook_page_already(Login.java:53)
+at Facebook.Login.user_is_on_Facebook_page_already(Login.java:54)
 at ✽.Given User is on Facebook page already(Login.feature:16)
 ]]>
             </full-stacktrace>
@@ -70,7 +70,7 @@ at ✽.Given User is on Facebook page already(Login.feature:16)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.CucumberTest2.TestRunner@69ea3742]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2018-10-31T02:28:18Z" finished-at="2018-10-31T02:28:18Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.CucumberTest2.TestRunner@69ea3742]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2018-10-31T03:02:18Z" finished-at="2018-10-31T03:02:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
